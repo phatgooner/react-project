@@ -7,3 +7,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.app-container {
+  .header-container {
+    .navbar {
+      z-index: 10;
+      background-color: transparent !important;
+      padding: 20px;
+
+      .nav-link {
+        &.active {
+          color: #00bfff;
+        }
+      }
+    }
+  }
+}
+
+.homepage-content {
+  position: relative;
+  padding: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+video {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
