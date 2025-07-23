@@ -1,4 +1,4 @@
-import videoIntro from '../assets/video-homepage.mp4';
+import videoIntro from '../../assets/video-homepage.mp4';
 
 const HomePage = (props) => {
     return (
